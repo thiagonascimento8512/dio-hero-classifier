@@ -1,28 +1,39 @@
-Instruções para entrega
+_Read this in other languages: [Português](README.pt.md), [Español](README.es.md)._
 
-# 1️⃣ Desafio Classificador de nível de Herói
+# Hero Classifier
 
-**O Que deve ser utilizado**
+In this simple project, we will check the level of your hero.
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+## Quick Start
 
-## Objetivo
+To run this project, follow these simple steps:
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+1. Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+2. Clone the repository or download the code.
+3. Open a terminal and navigate to the root folder of the project.
+4. Run the command below to start the project:
 
-- Se XP for menor do que 1.000 = Ferro
-- Se XP for entre 1.001 e 2.000 = Bronze
-- Se XP for entre 2.001 e 5.000 = Prata
-- Se XP for entre 6.001 e 7.000 = Ouro
-- Se XP for entre 7.001 e 8.000 = Platina
-- Se XP for entre 8.001 e 9.000 = Ascendente
-- Se XP for entre 9.001 e 10.000= Imortal
-- Se XP for maior ou igual a 10.001 = Radiante
+```bash
+   node index.js
+```
 
-## Saída
+## Objective
 
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
+Based on the reported power (XP), we will show your hero's level.
+
+- If XP is less than 1,000 = Iron
+- If XP is between 1,001 and 2,000 = Bronze
+- If XP is between 2,001 and 5,000 = Silver
+- If XP is between 5,001 and 7,000 = Gold
+- If XP is between 7,001 and 8,000 = Platinum
+- If XP is between 8,001 and 9,000 = Ascendant
+- If XP is between 9,001 and 10,000 = Immortal
+- If XP is greater or equal to 10,001 = Radiant
+
+## Output
+
+In the end, a message should be displayed:
+
+```
+"The hero named **{name}** is at the level of **{level}**"
+```
